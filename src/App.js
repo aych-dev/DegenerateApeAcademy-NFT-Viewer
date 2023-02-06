@@ -70,6 +70,11 @@ const CardImg = styled(Card.Img)`
     height: 385px;
     width: 385px;
   }
+
+  @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    height: 360px;
+    width: 360px;
+  }
 `;
 
 const MainCard = styled(Card)`
